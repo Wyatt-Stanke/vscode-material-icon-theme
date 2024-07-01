@@ -458,6 +458,10 @@ export const folderIcons: FolderTheme[] = [
       { name: 'folder-tasks', folderNames: ['tasks', 'tickets'] },
       { name: 'folder-android', folderNames: ['android'] },
       { name: 'folder-ios', folderNames: ['ios'] },
+      {
+        name: 'folder-ui',
+        folderNames: ['presentation', 'gui', 'ui', 'ux'],
+      },
       { name: 'folder-upload', folderNames: ['uploads', 'upload'] },
       { name: 'folder-download', folderNames: ['downloads', 'download'] },
       {
@@ -682,7 +686,7 @@ export const folderIcons: FolderTheme[] = [
         folderNames: ['anim', 'anims', 'animation', 'animations', 'animated'],
       },
       { name: 'folder-guard', folderNames: ['guard', 'guards'] },
-      { name: 'folder-prisma', folderNames: ['prisma'] },
+      { name: 'folder-prisma', folderNames: ['prisma', 'prisma/schema'] },
       { name: 'folder-pipe', folderNames: ['pipe', 'pipes'] },
       { name: 'folder-svg', folderNames: ['svg', 'svgs'] },
       {
@@ -859,6 +863,7 @@ export const folderIcons: FolderTheme[] = [
         name: 'folder-seeders',
         folderNames: ['seeds', 'seeders', 'seed', 'seeding'],
       },
+      { name: 'folder-bicep', folderNames: ['bicep'] },
     ],
   },
   {

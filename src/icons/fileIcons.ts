@@ -1798,6 +1798,7 @@ export const fileIcons: FileIcons = {
     },
     { name: 'codeowners', fileNames: ['codeowners', 'OWNERS'] },
     { name: 'gcp', fileNames: ['.gcloudignore'] },
+    { name: 'amplify', fileNames: ['amplify.yml'] },
     {
       name: 'disc',
       fileExtensions: ['iso', 'vmdk', 'hdd', 'qcow', 'qcow2', 'qed', 'dmg'],
@@ -2450,6 +2451,15 @@ export const fileIcons: FileIcons = {
     {
       name: 'container',
       fileNames: ['.devcontainer/devcontainer.json'],
+    },
+    {
+      name: 'kcl',
+      fileNames: ['kcl.mod', 'kcl.yaml', 'kcl.yml'],
+      fileExtensions: ['k'],
+    },
+    {
+      name: 'verified',
+      fileExtensions: ['sigstore.json'],
     },
     {
       name: 'bruno',
