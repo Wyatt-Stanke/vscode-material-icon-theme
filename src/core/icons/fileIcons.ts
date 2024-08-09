@@ -161,6 +161,21 @@ export const fileIcons: FileIcons = {
     { name: 'react', fileExtensions: ['jsx'] },
     { name: 'react_ts', fileExtensions: ['tsx'] },
     {
+      name: 'rocket',
+      fileNames: [
+        '.release-it.json',
+        '.release-it.ts',
+        '.release-it.js',
+        '.release-it.cjs',
+        '.release-it.yaml',
+        '.release-it.yml',
+        '.release-it.toml',
+        'release.toml',
+        'release-plz.toml',
+        '.release-plz.toml',
+      ],
+    },
+    {
       name: 'routing',
       fileExtensions: [
         'routing.ts',
@@ -932,7 +947,7 @@ export const fileIcons: FileIcons = {
     { name: 'reason', fileExtensions: ['re', 'rei'] },
     { name: 'bucklescript', fileExtensions: ['cmj'] },
     { name: 'merlin', fileExtensions: ['merlin'] },
-    { name: 'verilog', fileExtensions: ['vhd', 'sv', 'svh'] },
+    { name: 'verilog', fileExtensions: ['vhd', 'sv', 'svh', 'vhdl'] },
     { name: 'mathematica', fileExtensions: ['nb'] },
     { name: 'wolframlanguage', fileExtensions: ['wl', 'wls'] },
     { name: 'nunjucks', fileExtensions: ['njk', 'nunjucks'] },
@@ -2444,6 +2459,14 @@ export const fileIcons: FileIcons = {
       name: 'abap',
       fileExtensions: ['abap', 'acds', 'asddls'],
     },
+    {
+      name: 'drizzle',
+      fileNames: [
+        'drizzle.config.ts',
+        'drizzle.config.js',
+        'drizzle.config.json',
+      ],
+    },
     { name: 'lottie', fileExtensions: ['lottie'] },
     {
       name: 'puppeteer',
@@ -2509,6 +2532,10 @@ export const fileIcons: FileIcons = {
       fileExtensions: ['alloy'],
     },
     {
+      name: 'clangd',
+      fileNames: ['.clangd'],
+    },
+    {
       name: 'markdownlint',
       fileNames: [
         '.markdownlint.json',
@@ -2539,8 +2566,17 @@ export const fileIcons: FileIcons = {
       fileExtensions: ['hurl'],
     },
     {
+      name: 'cds',
+      fileExtensions: ['cds'],
+    },
+    {
       name: 'slint',
       fileExtensions: ['slint', '60'],
+    },
+    {
+      name: 'jsr',
+      fileNames: ['jsr.json', 'jsr.jsonc'],
+      light: true,
     },
   ]),
 };
